@@ -1,0 +1,80 @@
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adjust the margin as needed */
+  }
+  
+  .table th, .table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .table thead th {
+    background-color: #f8f9fa; /* Light gray background for header */
+  }
+  
+  .table-secondary {
+    background-color: #6c757d; /* Dark gray background for header text */
+    color: #fff; /* White text for header */
+  }
+  
+  .table tbody tr:nth-child(even) {
+    background-color: #f9f9f9; /* Alternate row background color */
+  }
+  
+  .table tbody tr:hover {
+    background-color: #e2e6ea; /* Hover background color */
+  }
+  
+  .btn-success {
+    background-color: #28a745; /* Bootstrap success button color */
+    color: #fff; /* White text for button */
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838; /* Darker color on hover for the button */
+  }
+  
+  .container1 {
+    max-width: 500px;
+    margin: auto;
+    background-color: #fff;   
+    border-radius: 5px;
+    margin-top: 5px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  .custom-small {
+    padding: 8px 12px;
+    font-size: 16px;
+  }
+  
+  .btn-success {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  .btn-success:hover {
+    background-color: #218838;
+  }
+  
+  

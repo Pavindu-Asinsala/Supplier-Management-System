@@ -1,0 +1,101 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+.add_btn{
+  text-align: right;
+}
+
+.container{
+  overflow: auto;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the container takes the full height of the viewport */
+}
+
+.container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+
+.container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+}
+
+form {
+  width: 100%; /* Adjust the width as needed */
+  max-width: 600px; /* Adjust the max-width as needed */
+}
+
+/* Add other styles as needed */
+
+
+
+
+.left_view h3{
+
+  font-size: 21px;
+
+}
+
+.left_view p {
+
+font-weight: 600;
+
+}
+
+.left_view span {
+
+  font-weight: 400;
+
+}
+.righr_view p {
+  font-weight: 600;
+}
+
+.righr_view span{
+
+  font-weight: 400;
+}
